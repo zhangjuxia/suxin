@@ -1,0 +1,348 @@
+/*清除浏览器默认样式*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*花言花语顶部导航开始*/
+.min-nav{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav-content{
+    width: 1140px;
+    height: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.row{
+    /*width: 1170px;
+    height: 80px;*/
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+.nav-logo{
+    width: 150px;
+    height: 80px;
+    float: left;
+}
+.nav-logo img{
+    width: 150px;
+    height: 50px;
+    margin: auto 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav-list{
+    width: 1170px;
+    height: 79px;
+}
+.list-item{
+    width: 602px;
+    height: 79px;
+    float: right;
+    margin-right: 10px;
+}
+.list-item-right{
+    width: 86px;
+    height: 79px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.list-item-right a{
+    height: 79px;
+    line-height: 79px;
+    font-weight: 400;
+    font-size: 16px;
+    color:#000;
+}
+.list-item-right a:hover{
+    color:#16b0dc;
+}
+ .link a{
+    color:#16b0dc;
+}
+/*花言花语顶部导航结束*/
+/*花言花语中间内容开始*/
+.title{
+    width: 100%;
+    height: 120px;
+    background-color: #f2f2f2;
+    margin-top: 80px;
+}
+.title>h1{
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 30px;
+    text-align: center;
+}
+.met-news{
+    width: 100%;
+    height: 2033px;
+    padding: 30px 0px;
+    background: #f2f2f2;
+    border-top: 1px solid #f0f2f5;
+}
+.container{
+    width: 1170px;
+    height: 1972px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+.rows{
+    width: 100%;
+    height: 1972px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.col-lfet{
+    width: 877px;
+    height: 1972px;
+    background: #fff;
+    box-sizing: border-box;
+    float: left;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.rowss{
+    width: 877px;
+    height: 1972px;
+    box-sizing: border-box;
+}
+.met-news-list{
+    width: 877px;
+    height: 1972px;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.met-type{
+    width: 690px;
+    height: 1750px;
+}
+.met-type li{
+    width: 817.5px;
+    height: 190px;
+    border-bottom: 1px solid #f0f2f5;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.met-new-list-item{
+    width: 817.5px;
+    height: 160px;
+}
+.item-left{
+    width: 160px;
+    height: 160px;
+    padding-right: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+.met-new-list-item .item-left a img{
+    width: 160px;
+    height: 160px;
+}
+.item-right{
+    width: 637px;
+    height: 160px;
+    margin-left: 180px;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #37474f;
+}
+.des{
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.info{
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 11px;
+}
+.margin-left-10{
+    margin-left: 10px ;
+}
+.info span .margin-left-10 i{
+    width: 16px;
+    height: 15px;
+    color: #a3afb7;
+    font-weight: 300;
+}
+.met-pagers{
+    width: 817px;
+    height: 21px;
+    margin-top: 20px;
+    margin-left: 260px;
+}
+.pre{
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    background: #fff;
+    /*color: #ccd5db;*/
+    cursor: default;
+    box-sizing: border-box;
+    float: left;
+}
+.met-pagers a{
+    border: 1px solid #e4eaec;
+    border-right: none;
+    padding: 9px 15px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #76838f;
+    float: left;
+}
+.met-pagers .active{
+    background: #f86867;
+    border-color: #f86867;
+    color: #fff;
+    cursor: default;
+}
+a.Next{
+    border-right: 1px solid #e4eaec;
+}
+a.Next:hover{
+    background: #f0f0f0;
+}
+.col-right{
+    width: 262px;
+    height: 355px;
+    background: #fff;
+    margin-left: 897px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.form-control{
+    width: 100%;
+    height: 36px;
+    border-radius: 30px;
+    display: block;
+    padding: 6px 15px;
+    font-size: 14px;
+    background-image: none;
+    border: 1px solid #e4eaec;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    position: relative;
+}
+.search{
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    height: 100%;
+    padding: 0 10px;
+    background: 0 0;
+    border: none;
+    border-radius: 0 200px 200px 0;
+}
+.recommend{
+    margin: 20px 0px;
+    padding: 20px 0px;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+}
+.recommend-list{
+    margin-top: 10px;
+}
+h3{
+    padding-bottom: 5px;
+    color: #37474f;
+    font-size: 18px;
+}
+.recommend-list-item{
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #e4eaec;
+}
+.recommend-list-item a{
+    color: #2a333c;
+    font-size: 15px;
+}
+.recommend-list-item a:hover{
+    color: #62a8ea;
+    text-decoration: underline;
+}
+.column a{
+    font-size: 16px;
+    color: #2a333c;
+}
+.column a:hover{
+    color: #62a8ea;
+    text-decoration: underline;
+}
+/*花言花语中间内容结束*/
+/*底部开始*/
+.footer-box{
+    width: 100%;
+    height: 182px;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+    border-top: 1px solid #f0f2f5;
+    color: #aaaaaa;
+    text-align: center;
+}
+.footer-title{
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    border-top: 1px solid #f0f2f5;
+}
+.footer-qq{
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    padding-top:20px;
+}
+.footer-qq i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.wx{
+    color: green;
+}
+.qq{
+    color: #3cafff;
+}
+.footer-bottom a{
+    color: #62a8ea;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.footer-box p{
+    color: #aaaaaa;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+/*底部结束*/

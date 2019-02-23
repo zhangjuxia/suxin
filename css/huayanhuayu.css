@@ -257,6 +257,7 @@ a.Next:hover{
     box-sizing: border-box;
     margin-bottom: 20px;
     position: relative;
+    outline: none;
 }
 .search{
     position: absolute;
